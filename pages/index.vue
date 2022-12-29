@@ -11,3 +11,9 @@ export default Vue.extend({
   name: 'IndexPage',
 })
 </script>
+
+<style lang="scss" scoped>
+img {
+  width: 100%;
+}
+</style>
