@@ -1,13 +1,9 @@
 <template>
   <div>
+    <HeaderDiv />
     <main>
-      <div id="MainTopic">
-        <h1>nuxtjs-template 👍</h1>
-        <img :src="$router.options.base + 'tako.png'" alt="tako" />
-      </div>
-      <div id="Links">
-        <NuxtLink v-for="page in pages" :key="page.name" :to="page.path">{{ page.name }}</NuxtLink>
-      </div>
+      <h1>Hello {{ name }} 💓💓💓</h1>
+      <input type="text" class="form-control" @input="Input" />
     </main>
     <FooterDiv />
   </div>
@@ -22,7 +18,13 @@ export default Vue.extend({
   data() {
     return {
       pages,
+      name: 'Nuxt.js',
     };
+  },
+  methods: {
+    Input(e: any) {
+      this.name = e.target.value;
+    },
   },
 });
 </script>
