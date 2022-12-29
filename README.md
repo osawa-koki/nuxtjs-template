@@ -14,7 +14,7 @@ yarn generate
 
 ## 補足
 
-Nodeのバージョンが新しすぎることにより暗号化エラー``が発生することがある。  
+Nodeのバージョンが新しすぎることにより暗号化エラー`digital envelope routines::unsupported`が発生することがある。  
 したがって、以下のコマンドに変更することで一時的に回避している。  
 
 ```shell
