@@ -48,7 +48,7 @@ export default {
   build: {},
 
   generate: {
-    dir: "docs"
+    dir: "dist"
   },
 
   router: {
