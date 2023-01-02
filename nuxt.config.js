@@ -1,4 +1,4 @@
-const PROJECT_NAME = 'simple-nuxt-study.ssg.ts';
+const PROJECT_NAME = 'nuxtjs-template';
 const PRODUCTION_BASE_PATH = `/${PROJECT_NAME}/`;
 
 export default {

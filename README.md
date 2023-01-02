@@ -1,4 +1,4 @@
-# simple-nuxt-study.ssg.ts
+# nuxtjs-template
 
 Nuxt.jsの学習用プロジェクト。  
 
