@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const PROJECT_NAME = 'nuxtjs-template';
 const PRODUCTION_BASE_PATH = `/`;
 
@@ -7,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: PROJECT_NAME,
+    title: '💓 nuxtjs-template 💓',
     htmlAttrs: {
       lang: 'ja',
     },
