@@ -22,7 +22,7 @@ import { defineComponent } from "vue";
 import pages from '~/pages';
 
 const MailRegex = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-const emojis = ['🥺', '👼', '😭', '😇', '😢', '😇', '😭', '👼', '🥺'];
+const emojis = ['🥺', '👼', '😭', '😇', '😢'];
 const GetEmoji = () => emojis[Math.floor(Math.random() * emojis.length)];
 let interval: NodeJS.Timer | null = null;
 
