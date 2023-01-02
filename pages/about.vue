@@ -21,7 +21,7 @@ import { defineComponent } from "vue";
 import pages from '~/pages';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'AboutPage',
   data() {
     return {
       pages,

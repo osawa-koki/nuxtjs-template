@@ -27,7 +27,7 @@ const GetEmoji = () => emojis[Math.floor(Math.random() * emojis.length)];
 let interval: NodeJS.Timer | null = null;
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'ContactPage',
   data() {
     return {
       pages,
