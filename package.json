@@ -1,9 +1,9 @@
 {
-  "name": "nuxtjs-template",
+  "name": "simple-nuxt-study.ssg.ts",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt --openssl-legacy-provider",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",

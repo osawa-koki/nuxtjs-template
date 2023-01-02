@@ -1,4 +1,4 @@
-const PROJECT_NAME = 'nuxtjs-template';
+const PROJECT_NAME = 'simple-nuxt-study.ssg.ts';
 const PRODUCTION_BASE_PATH = `/${PROJECT_NAME}/`;
 
 export default {
@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: `${PRODUCTION_BASE_PATH}tako.ico` }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: `${PRODUCTION_BASE_PATH}favicon.ico` }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
