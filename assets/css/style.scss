@@ -6,8 +6,10 @@
 }
 
 main {
-  margin: 5rem auto;
-  max-width: 1200px;
-  padding: 1rem;
-  min-height: 300px;
+  max-width: 800px;
+  margin: 100px auto;
+  min-height: 100px;
+  ul, ol, p, div {
+    margin-top: 1rem;
+  }
 }
