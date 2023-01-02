@@ -1,5 +1,5 @@
 const PROJECT_NAME = 'nuxtjs-template';
-const PRODUCTION_BASE_PATH = `/${PROJECT_NAME}/`;
+const PRODUCTION_BASE_PATH = `/`;
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -14,10 +14,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Learning Nuxt.js 💓' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: `${PRODUCTION_BASE_PATH}favicon.ico` }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: `/favicon.ico` }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
