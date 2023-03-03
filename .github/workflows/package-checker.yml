@@ -1,0 +1,42 @@
+name: Check for Deprecated Packages
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  schedule:
+    - cron: '0 */6 * * *'
+
+env:
+  project_name: nuxtjs-template
+  slack_channel: '#alert'
+  slack_username: 'Github Actions'
+
+jobs:
+  check-deprecated:
+    runs-on: ubuntu-latest
+    container:
+      image: node:16
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Check for deprecated packages
+        id: check
+        run: yarn outdated
+        continue-on-error: true
+      - name: Post to Slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: 'failure'
+          text: |
+            Deprecated package(s) found!
+            -> ${{ env.project_name }}
+            -> run `yarn outdated` and `yarn upgrade [--latest]` to fix it.
+          channel: ${{ env.slack_channel }}
+          username: ${{ env.slack_username }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: ${{ always() && steps.check.outcome != 'success' }}
