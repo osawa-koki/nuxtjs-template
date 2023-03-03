@@ -17,7 +17,7 @@ jobs:
   check-deprecated:
     runs-on: ubuntu-latest
     container:
-      image: node:18
+      image: node:16
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
