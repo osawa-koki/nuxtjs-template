@@ -1,12 +1,12 @@
 # nuxtjs-template
 
-Nuxt.jsの学習用プロジェクト。  
+💐💐💐 よく使うNuxt.jsのテンプレートプロジェクト。  
 
 ## 実行方法
 
 ```shell
 # モジュールのインストール
-yarn
+yarn install
 
 # デバグ用実行
 yarn dev
