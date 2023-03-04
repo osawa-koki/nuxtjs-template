@@ -6,7 +6,7 @@
 
 ```shell
 # モジュールのインストール
-yarn
+yarn install
 
 # デバグ用実行
 yarn dev
