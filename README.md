@@ -1,6 +1,6 @@
 # nuxtjs-template
 
-Nuxt.jsの学習用プロジェクト。  
+💐💐💐 よく使うNuxt.jsのテンプレートプロジェクト。  
 
 ## 実行方法
 
