@@ -8,7 +8,6 @@ on:
     - cron: '0 */6 * * *'
 
 env:
-  project_name: nuxtjs-template
   slack_channel: '#alert'
   slack_username: 'Github Actions'
 
@@ -32,7 +31,7 @@ jobs:
           status: 'failure'
           text: |
             Deprecated package(s) found!
-            -> ${{ env.project_name }}
+            -> ${{ github.repository }}
             -> run `yarn outdated` and `yarn upgrade [--latest]` to fix it.
           channel: ${{ env.slack_channel }}
           username: ${{ env.slack_username }}
