@@ -1,4 +1,4 @@
-name: ci
+name: Check Nuxt.js App
 
 on:
   push:
