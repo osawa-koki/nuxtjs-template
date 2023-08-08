@@ -2,14 +2,16 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true,
+    'jest/globals': true,
+    node: true
   },
   extends: [
     '@nuxtjs/eslint-config-typescript',
-    'plugin:nuxt/recommended',
-    'prettier',
+    'plugin:nuxt/recommended'
   ],
-  plugins: [],
+  plugins: [
+    'jest'
+  ],
   // add your custom rules here
-  rules: {},
+  rules: {}
 }
