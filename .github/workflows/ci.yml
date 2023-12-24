@@ -1,16 +1,6 @@
-name: Check Nuxt.js App
+name: ci
 
-on:
-  push:
-    branches:
-      - main
-      - develop
-      - issues/*
-  pull_request:
-    branches:
-      - main
-      - develop
-      - issues/*
+on: [ push ]
 
 jobs:
   ci:
