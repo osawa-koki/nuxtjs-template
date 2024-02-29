@@ -1,0 +1,220 @@
+repo_name: osawa-koki/nuxtjs-template
+report_id: c4824402fb1e4ed237a41d2c9411db8d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:09:31+00:00'
+requested_by: osawa-koki
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2023-08-08 14:19:46.000000000 Z
+- name: Nuxt.js
+  description: The Vue.js Framework
+  website_url: https://nuxtjs.org
+  version: 2.17.2
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/7304/23360933.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2022-12-29 03:55:46.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.7.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2022-12-29 03:55:46.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2022-12-29 03:55:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/.github/workflows/cd.yml
+  detection_source: ".github/workflows/cd.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-20 00:15:02.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: osawa-koki
+  last_updated_on: 2022-12-29 03:55:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2022-12-29 03:55:46.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2023-08-08 14:19:46.000000000 Z
+- name: bootstrap-vue
+  description: BootstrapVue
+  package_url: https://www.npmjs.com/bootstrap-vue
+  version: 2.23.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17817/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2024-01-07 15:28:38.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.35.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2024-01-07 15:28:38.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 9.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2024-01-07 15:28:38.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.7.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2022-12-29 03:55:46.000000000 Z
+- name: vue-server-renderer
+  description: Server renderer for Vue 2.0
+  package_url: https://www.npmjs.com/vue-server-renderer
+  version: 2.7.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17043/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2024-01-07 15:28:38.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/osawa-koki/nuxtjs-template/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: osawa-koki
+  last_updated_on: 2024-01-07 15:28:38.000000000 Z
